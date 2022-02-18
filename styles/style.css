@@ -63,12 +63,6 @@ a:hover {
    border:var(--secondary);
 }
 
-.instructions {
-   position: absolute;
-   bottom: 1em;
-   left: 1em;
-}
-
 .instructions p {
    font-size: 1rem;
 }
