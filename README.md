@@ -25,11 +25,12 @@ function onKeyDown(e) {
     })
   } else {
     buttons.forEach(button =>{
-      button.setAttribute('class', '')
       const letter = e.key.toLowerCase()
-      const firstLetter = button.innerText[0]
+      const firstLetter = button.innerText[0].toLowerCase()
       if(firstLetter.toLowerCase() === letter) {
         button.classList.toggle('purple')
+      } else {
+        button.setAttribute('class', '')
       }
     })
   }
