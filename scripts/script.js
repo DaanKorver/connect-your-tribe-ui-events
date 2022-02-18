@@ -29,7 +29,6 @@ function onKeyDown(e) {
     buttons.forEach(button =>{
       const letter = e.key.toLowerCase()
       const firstLetter = button.innerText[0].toLowerCase()
-      console.log(letter, firstLetter);
       if(firstLetter.toLowerCase() === letter) {
         button.classList.toggle('purple')
       } else {
