@@ -29,7 +29,7 @@ function onKeyDown(e) {
       const letter = e.key.toLowerCase()
       const firstLetter = button.innerText[0]
       if(firstLetter.toLowerCase() === letter) {
-        button.classList.add('purple')
+        button.classList.toggle('purple')
       }
     })
   }
